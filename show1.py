@@ -38,4 +38,4 @@ for epoch in range(1000):
 	idx = np.random.choice(len(admit_y), 20, replace=False)
 	_, l = sess.run([train, cross_entropy], feed_dict={x:gre_x[idx], y:admit_y[idx]})
 	if epoch % 100 == 0:
-		print l
+		print (l)
