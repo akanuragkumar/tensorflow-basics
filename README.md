@@ -6,4 +6,5 @@ Tensorflow	for	python
 Libraries used- Pandas,	numpy	and	matplotlib
 
 To visualize data in tensorboard-
+
 tensorboard	--logdir=./graphs	
