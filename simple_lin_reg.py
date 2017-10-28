@@ -32,7 +32,7 @@ with tf.name_scope("Denominator"):
 with tf.name_scope("Slope"):
 	slope = numerator / denominator
 
-with tf.name_scope("Intercept"):
+with tf.name_scope("Intercept"): 
 	intercept = y_mean - (slope * x_mean)
 
 with tf.Session() as sess:
