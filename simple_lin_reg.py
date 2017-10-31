@@ -3,7 +3,7 @@ matplotlib.use('TkAgg')
 import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import numpy as np
+import numpy as np 
 
 adv = pd.read_csv('Advertising.csv')
 tv_budget_x = adv.TV.tolist()
